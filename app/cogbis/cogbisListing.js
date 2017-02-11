@@ -10,7 +10,7 @@ const BASE_URL = 'https://en.wikipedia.org/w/api.php?format=json&action=parse&pa
 const BUSTER = './datalist.json';
 const URL = "https://raw.githubusercontent.com/sfny/mfa/master/app/cogbis/dataList.json";
 
-var responseData = []
+//var responseData = []
 
 export default class CogbisListing extends Component {
   constructor(props) {
@@ -55,7 +55,7 @@ export default class CogbisListing extends Component {
       renderSingleCogBi(cogbi) {
           return (
             <View style={styles.title}>
-              <Text>{cogbi.children.name}</Text>
+              <Text>{cogbi.name}</Text>
             </View>
           );
         }
