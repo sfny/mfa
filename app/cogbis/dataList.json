@@ -1,6 +1,4 @@
-[{
-  "name": "biases",
-  "children": [
+[
     {
       "name": "Availability heuristic"
     },
@@ -569,4 +567,3 @@
       "name": "Tip of the tongue phenomenon"
     }
   ]
-}]
