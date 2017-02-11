@@ -375,180 +375,180 @@
       },
       {
          "name":"Identifiable victim effect"
-      }      {
-         {
-            "name":"Sunk cost fallacy"
-         },
-         {
-            "name":"Irrational escalation"
-         },
-         {
-            "name":"Escalation of commitment"
-         },
-         {
-            "name":"Generation effect"
-         },
-         {
-            "name":"Loss aversion"
-         },
-         {
-            "name":"IKEA effect"
-         },
-         {
-            "name":"Unit bias"
-         },
-         {
-            "name":"Zero-risk bias"
-         },
-         {
-            "name":"Disposition effect"
-         },
-         {
-            "name":"Pseudocertainty effect"
-         },
-         {
-            "name":"Processing difficulty effect"
-         },
-         {
-            "name":"Endowment effect"
-         },
-         {
-            "name":"Backfire effect"
-         }         {
-            "name":"System justification"
-         },
-         {
-            "name":"Reverse psychology"
-         },
-         {
-            "name":"Reactance"
-         },
-         {
-            "name":"Decoy effect"
-         },
-         {
-            "name":"Social comparison bias"
-         },
-         {
-            "name":"Status quo bias"
-         }         {
-            "name":"Ambiguity bias"
-         },
-         {
-            "name":"Information bias"
-         },
-         {
-            "name":"Belief bias"
-         },
-         {
-            "name":"Rhyme as reason effect"
-         },
-         {
-            "name":"Bike-shedding effect"
-         },
-         {
-            "name":"Law of Triviality"
-         },
-         {
-            "name":"Delmore effect"
-         },
-         {
-            "name":"Conjunction fallacy"
-         },
-         {
-            "name":"Occam's razor"
-         },
-         {
-            "name":"Less-is-better effect"
-         }         {
-            "name":"Misattribution of memory"
-         },
-         {
-            "name":"Source confusion"
-         },
-         {
-            "name":"Cryptomnesia"
-         },
-         {
-            "name":"False memory"
-         },
-         {
-            "name":"Suggestibility"
-         },
-         {
-            "name":"Spacing effect"
-         }         {
-            "name":"Implicit associations"
-         },
-         {
-            "name":"Implicit stereotypes"
-         },
-         {
-            "name":"Stereotypical bias"
-         },
-         {
-            "name":"Prejudice"
-         },
-         {
-            "name":"Negativity bias"
-         },
-         {
-            "name":"Fading affect bias"
-         }         {
-            "name":"Peak–end rule"
-         },
-         {
-            "name":"Leveling and sharpening"
-         },
-         {
-            "name":"Misinformation effect"
-         },
-         {
-            "name":"Serial recall effect"
-         },
-         {
-            "name":"List-length effect"
-         },
-         {
-            "name":"Duration neglect"
-         },
-         {
-            "name":"Modality effect"
-         },
-         {
-            "name":"Memory inhibition"
-         },
-         {
-            "name":"Primacy effect"
-         },
-         {
-            "name":"Recency effect"
-         },
-         {
-            "name":"Part-list cueing effect"
-         },
-         {
-            "name":"Serial position effect"
-         },
-         {
-            "name":"Suffix effect"
-         }         {
-            "name":"Levels of processing effect"
-         },
-         {
-            "name":"Absent-mindedness"
-         },
-         {
-            "name":"Testing effect"
-         },
-         {
-            "name":"Next-in-line effect"
-         },
-         {
-            "name":"Google effect"
-         },
-         {
-            "name":"Tip of the tongue phenomenon"
-         }
+      },
+      {
+          "name":"Sunk cost fallacy"
+       },
+       {
+          "name":"Irrational escalation"
+       },
+       {
+          "name":"Escalation of commitment"
+       },
+       {
+          "name":"Generation effect"
+       },
+       {
+          "name":"Loss aversion"
+       },
+       {
+          "name":"IKEA effect"
+       },
+       {
+          "name":"Unit bias"
+       },
+       {
+          "name":"Zero-risk bias"
+       },
+       {
+          "name":"Disposition effect"
+       },
+       {
+          "name":"Pseudocertainty effect"
+       },
+       {
+          "name":"Processing difficulty effect"
+       },
+       {
+          "name":"Endowment effect"
+       },
+       {
+          "name":"Backfire effect"
+       }         {
+          "name":"System justification"
+       },
+       {
+          "name":"Reverse psychology"
+       },
+       {
+          "name":"Reactance"
+       },
+       {
+          "name":"Decoy effect"
+       },
+       {
+          "name":"Social comparison bias"
+       },
+       {
+          "name":"Status quo bias"
+       }         {
+          "name":"Ambiguity bias"
+       },
+       {
+          "name":"Information bias"
+       },
+       {
+          "name":"Belief bias"
+       },
+       {
+          "name":"Rhyme as reason effect"
+       },
+       {
+          "name":"Bike-shedding effect"
+       },
+       {
+          "name":"Law of Triviality"
+       },
+       {
+          "name":"Delmore effect"
+       },
+       {
+          "name":"Conjunction fallacy"
+       },
+       {
+          "name":"Occam's razor"
+       },
+       {
+          "name":"Less-is-better effect"
+       }         {
+          "name":"Misattribution of memory"
+       },
+       {
+          "name":"Source confusion"
+       },
+       {
+          "name":"Cryptomnesia"
+       },
+       {
+          "name":"False memory"
+       },
+       {
+          "name":"Suggestibility"
+       },
+       {
+          "name":"Spacing effect"
+       }         {
+          "name":"Implicit associations"
+       },
+       {
+          "name":"Implicit stereotypes"
+       },
+       {
+          "name":"Stereotypical bias"
+       },
+       {
+          "name":"Prejudice"
+       },
+       {
+          "name":"Negativity bias"
+       },
+       {
+          "name":"Fading affect bias"
+       }         {
+          "name":"Peak–end rule"
+       },
+       {
+          "name":"Leveling and sharpening"
+       },
+       {
+          "name":"Misinformation effect"
+       },
+       {
+          "name":"Serial recall effect"
+       },
+       {
+          "name":"List-length effect"
+       },
+       {
+          "name":"Duration neglect"
+       },
+       {
+          "name":"Modality effect"
+       },
+       {
+          "name":"Memory inhibition"
+       },
+       {
+          "name":"Primacy effect"
+       },
+       {
+          "name":"Recency effect"
+       },
+       {
+          "name":"Part-list cueing effect"
+       },
+       {
+          "name":"Serial position effect"
+       },
+       {
+          "name":"Suffix effect"
+       }         {
+          "name":"Levels of processing effect"
+       },
+       {
+          "name":"Absent-mindedness"
+       },
+       {
+          "name":"Testing effect"
+       },
+       {
+          "name":"Next-in-line effect"
+       },
+       {
+          "name":"Google effect"
+       },
+       {
+          "name":"Tip of the tongue phenomenon"
+       }
       ]
     }
