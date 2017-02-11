@@ -8,7 +8,7 @@ import {
 
 const BASE_URL = 'https://en.wikipedia.org/w/api.php?format=json&action=parse&page=Loss_aversion&prop=text';
 const BUSTER = './datalist.json';
-const URL = "https://raw.githubusercontent.com/darkarmyIN/React-Native-DynamicListView/master/appledata.json";
+const URL = "https://raw.githubusercontent.com/sfny/mfa/master/app/cogbis/dataList.json";
 
 var responseData = []
 
@@ -55,7 +55,7 @@ export default class CogbisListing extends Component {
       renderSingleCogBi(cogbi) {
           return (
             <View style={styles.title}>
-              <Text>{cogbi.display_string}</Text>
+              <Text>{cogbi.children.name}</Text>
             </View>
           );
         }
