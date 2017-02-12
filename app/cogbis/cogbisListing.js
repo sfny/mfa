@@ -3,8 +3,11 @@ import {
   StyleSheet,
   Text,
   ListView,
+  TouchableHighlight,
   View
 } from 'react-native';
+
+import About from "../pages/About";
 
 const BASE_URL = 'https://en.wikipedia.org/w/api.php?format=json&action=parse&page=Loss_aversion&prop=text';
 const BUSTER = './datalist.json';
@@ -37,6 +40,13 @@ export default class CogbisListing extends Component {
       });
   }
 
+  nextPage() {
+    this.props.toRoute({
+      name: 'About Us',
+      component: About,
+    });
+  }
+
   render() {
       if (this.state.cogbis) {
           return (
@@ -46,16 +56,18 @@ export default class CogbisListing extends Component {
           );
       }
       return (
-            <View>
-              <ListView dataSource={this.state.dataSource}
-                renderRow={this.renderSingleCogBi.bind(this)} />
-            </View>
+            <TouchableHighlight onPress={this.nextPage.bind(this)} style={styles.container}>
+                <ListView dataSource={this.state.dataSource}
+                  renderRow={this.renderSingleCogBi.bind(this)} />
+            </TouchableHighlight>
       );
     }
       renderSingleCogBi(cogbi) {
           return (
-            <View style={styles.title}>
-              <Text>{cogbi.name}</Text>
+            <View style={styles.listView}>
+              <Text style={styles.rowText}>
+              {cogbi.name}
+              </Text>
             </View>
           );
         }
@@ -67,11 +79,16 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#4C6983',
   },
-  listData: {
+  listView: {
     marginLeft:20,
-    flex: 1
+    marginBottom: 10,
+    flex: 1,
+  },
+  rowText: {
+    fontSize: 20,
+    color: '#F4F7F7',
   },
   welcome: {
     fontSize: 20,

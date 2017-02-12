@@ -4,16 +4,29 @@ import {
   View,
   StyleSheet
 } from 'react-native';
-import CogbisListing from './app/cogbis/cogbisListing'
+import CogbisListing from './app/cogbis/cogbisListing';
+import Router from 'react-native-simple-router';
 
-export default class mfa extends Component {
+const FIRST_ROUTE = {
+  name: 'Home',
+  component: CogbisListing,
+};
 
+class mfa extends Component {
   render() {
     return (
-      <CogbisListing />
+      <Router
+        firstRoute={FIRST_ROUTE}
+        headerStyle={styles.header}/>
     );
   }
 
 }
+
+const styles = StyleSheet.create({
+  header: {
+    backgroundColor: '#38556A',
+  },
+})
 
 AppRegistry.registerComponent('mfa', () => mfa);
