@@ -8,7 +8,7 @@ import CogbisListing from './app/cogbis/cogbisListing';
 import Router from 'react-native-simple-router';
 
 const FIRST_ROUTE = {
-  name: 'Home',
+  name: 'Cognitive Biases',
   component: CogbisListing,
 };
 

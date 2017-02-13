@@ -7,7 +7,7 @@ import {
   View
 } from 'react-native';
 
-import About from "../pages/About";
+import Detail from "../cogbis/cogbiDetail";
 
 const BASE_URL = 'https://en.wikipedia.org/w/api.php?format=json&action=parse&page=Loss_aversion&prop=text';
 const BUSTER = './datalist.json';
@@ -40,10 +40,12 @@ export default class CogbisListing extends Component {
       });
   }
 
-  nextPage() {
+  nextPage(cogbi) {
+    console.log(cogbi)
     this.props.toRoute({
-      name: 'About Us',
-      component: About,
+      name: cogbi.name,
+      component: Detail,
+      data: cogbi,
     });
   }
 
@@ -56,19 +58,19 @@ export default class CogbisListing extends Component {
           );
       }
       return (
-            <TouchableHighlight onPress={this.nextPage.bind(this)} style={styles.container}>
                 <ListView dataSource={this.state.dataSource}
                   renderRow={this.renderSingleCogBi.bind(this)} />
-            </TouchableHighlight>
       );
     }
       renderSingleCogBi(cogbi) {
           return (
+          <TouchableHighlight onPress={this.nextPage.bind(this, cogbi)} style={styles.container}>
             <View style={styles.listView}>
               <Text style={styles.rowText}>
               {cogbi.name}
               </Text>
             </View>
+          </TouchableHighlight>
           );
         }
 } //Component close
